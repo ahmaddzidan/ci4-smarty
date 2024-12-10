@@ -27,7 +27,7 @@ class Smarty extends Core
         parent::__construct();
 
         if ($this->config !== $this->config instanceof SmartyConfig) {
-            $this->config = new SmartyConfig();
+            $this->config = config('Smarty');
         }
 
         // // Turn on/off debug
