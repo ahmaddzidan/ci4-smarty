@@ -4,7 +4,7 @@ Simple way to integrate Smarty template engine into Codeigniter 4
 ## Installation
 Use the package manager [composer](https://getcomposer.org/) to install Smarty.
 ```bash
-composer require ahmaddzidan/ci4-smarty
+composer require asanusi007/ci4-smarty
 ```
 ## Usage
 Open BaseController.php inside app/Controllers/BaseController.php and add this code
